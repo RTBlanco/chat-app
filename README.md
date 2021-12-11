@@ -21,4 +21,8 @@ Things you may want to cover:
 
 * Deployment instructions
 
-* ...
+## instructions
+  1) make user to have redis install on your computer and run the server ```redis-server```
+  2) After redis is running correctly you may now start the rails server ``` rails s```
+
+https://www.honeybadger.io/blog/chat-app-rails-actioncable-turbo/ 👈🏽 tutorial 
