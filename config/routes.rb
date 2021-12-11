@@ -1,5 +1,9 @@
 Rails.application.routes.draw do
-  resources :rooms
+  get 'messages/create'
+  resources :rooms do 
+    resources :messages
+  end
+  
   resources :users
   root 'rooms#index'
 
