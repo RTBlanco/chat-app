@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'users/show'
   get 'messages/create'
   resources :rooms do 
     resources :messages
